@@ -19,3 +19,30 @@ main {
 p {
   color: #333;
 }
+
+.venue-item {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.venue-item h2 {
+  margin: 0 0 0.5rem;
+  color: #333;
+}
+
+.venue-item p {
+  margin: 0.25rem 0;
+  color: #555;
+}
+
+.venue-item a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.venue-item a:hover {
+  text-decoration: underline;
+}
