@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const fs = require("fs"); 
+const fs = require("fs");
 const app = express();
 
 const PORT = 3000;
@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 
 // API endpoint to get venues data from stores.json
 app.get("/api/venues", (req, res) => {
-  const filePath = path.join(__dirname, "../public/stores.json");
+  const filePath = path.join(__dirname, "./stores.json");
 
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
